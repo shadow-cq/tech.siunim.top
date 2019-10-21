@@ -265,11 +265,7 @@ post_meta:
     enable: true
     another_day: true
   categories: true
-# NexT supports the edit functionality of your posts. 
-# By enabling this feature, users can quickly browse and modify the blog's source code on GitHub.
-post_edit:
-  enable: true
-  url: https://github.com/shadow-cq/tech.siunim.top/edit/master/source/
+
 
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
@@ -318,8 +314,10 @@ related_posts:
 # Post edit
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
-  enable: false
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source
+  enable: true
+  url: https://github.com/shadow-cq/tech.siunim.top/edit/master/source/
+  #url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name
+   # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit
 
 
