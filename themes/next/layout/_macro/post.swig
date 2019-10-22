@@ -242,6 +242,15 @@
       {%- if theme.creative_commons.license and theme.creative_commons.post %}
         {{ partial('_partials/post/post-copyright.swig') }}
       {%- endif %}
+    {#####################}
+    {### 增加文章结束标志 by shadow ###}
+    {#####################}
+    <div>
+       {% if not is_index %}
+       {% include 'passage-end-tag.swig' %}
+       {% endif %}
+    </div>
+
 
       <footer class="post-footer">
         {%- if post.tags and post.tags.length %}

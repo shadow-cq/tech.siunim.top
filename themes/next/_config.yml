@@ -1125,3 +1125,7 @@ vendors:
 css: css
 js: js
 images: images
+# 增加文章末尾结束标志 by shadow
+passage_end_tag:
+  enabled: true
+
