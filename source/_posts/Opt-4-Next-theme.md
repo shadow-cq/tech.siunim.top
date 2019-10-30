@@ -1,14 +1,14 @@
 ---
-title: Opt 4 Next theme
+title: Hexo Next theme opt
 date: 2019-10-29 12:11:47
 tags: [Hexo,Next Theme]
 categories: [study,blog]
 ---
 
 
-# 博客主题优化 （ Next ）
+ 
 
-## 添加点击小红心效果
+# 添加点击小红心效果
 
 在`/themes/next/source/js/src`下新建文件` clicklove.js` ，接着把下面的代码拷贝粘贴到 `clicklove.js` 文件中：
 ```
@@ -42,7 +42,7 @@ categories: [study,blog]
 hexo s
 ```
 
-## 动态背景：变换线
+# 动态背景：变换线
 
 
 Enable module in **NexT** `_config.yml` file:
@@ -66,7 +66,7 @@ vendors:
   canvas_nest_nomobile: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@latest/canvas-nest-nomobile.min.js
 ```
 
-## 作者头像设置
+# 作者头像设置
 
 
 如何设置头像呢?
@@ -88,7 +88,7 @@ vendors:
 ```
 然后我们`hexo s`一下, 就能看见我们的头像出现啦! 现在把鼠标移上去, 是不是就能看见头像顺溜的转了一圈啦?
 
-## 文章结束标志
+# 文章结束标志
 在路径 `\themes\next\layout\_macro` 中新建一个叫 `passage-end-tag.swig `文件, 注意后缀要正确哦, 然后把下面的代码复制进去:
 
 
@@ -118,13 +118,13 @@ vendors:
 大功告成啦!!!
 
 
-## Social 信息（sidebar）
+# Social 信息（sidebar）
 
 OK, 现在我们可以设置一下主题配置文件, 其中social表示社交信息, 我们可以填入我们相关的链接, 格式为链接名: 链接地址 || 链接图标, 其中链接图标必须是FontAwesome网站中存在的图标名哦, 否则在页面中是无法显示的!
 
 
 
-## 更改favicon
+# 更改favicon
 
 favicon是网站图标(favorites icon)的缩写
 
@@ -141,7 +141,7 @@ favicon:
 ```
 于是我们打开source/images/很容易就能找到以上的几个文件，将他们修改成你的网站图标，png可以用ps等软件，svg是矢量图，推荐用ai，不会做矢量图的话直接将配置文件里的后缀名改掉就行了
 
-## rss订阅
+# rss订阅
 将主题配置文件中的`rss`留空即可
 
 在博客目录中安装`hexo-generator-feed`
@@ -151,8 +151,8 @@ npm install hexo-generator-feed --save
 ```
 他会自动生成`atom.xml`
 
-## 网页底部
-### 显示版权信息和年份
+# 网页底部
+## 显示版权信息和年份
 主题配置文件：
 
 
@@ -190,7 +190,7 @@ copyright: RyTinSelver
 # 随便写什么都可以
  custom_text: Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" targ
 ```
-### 年份和版权信息中间显示跳动的爱心
+## 年份和版权信息中间显示跳动的爱心
 主题配置文件：
 
 
@@ -206,7 +206,7 @@ copyright: RyTinSelver
 ```
 如果要使用其它图案，可以到[fontawesome](https://fontawesome.com/v4.7.0/icons/)官网查找
 
-### 备案信息
+## 备案信息
 在网页底部显示网站备案信息
 
 主题配置文件：
@@ -216,7 +216,7 @@ beian:
    enable: true
    icp: XICP备XXXXXXXX号
 ```
-### 文章知识版权
+## 文章知识版权
 主题配置文件：
 
 ```
@@ -235,7 +235,7 @@ creative_commons:
 3. 禁止演绎（No Derivative Works，简写为ND）：不得修改原作品, 不得再创作。
 
 4. 相同方式共享（Share Alike，简写为SA）：允许修改原作品，但必须使用相同的许可证发布。
-## SEO优化
+# SEO优化
 主题配置文件：
 
 ```
@@ -255,7 +255,7 @@ index_with_subtitle: true
 exturl: true
 ```
 
-## 导航栏菜单
+# 导航栏菜单
 主题配置文件：
 
 ```
