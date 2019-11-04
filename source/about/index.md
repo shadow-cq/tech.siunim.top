@@ -95,8 +95,8 @@ Hack to learn!
 
 ### 订阅服务
 
-目前本站支持以下三种方式订阅：
-
+<!-- 目前本站支持以下三种方式订阅：
+ -->
 <!-- + [Wechat](https://www.com/images/wechat-official-accounts.svg)
  -->
 + [RSS Feed](https://tech.siunim.top/atom.xml)
