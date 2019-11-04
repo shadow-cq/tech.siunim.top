@@ -1,5 +1,9 @@
 ---
 title: Hello World
+abbrlink: 4a17b156
+date: 2019-10-22 12:11:47
+tags: [blog,tech]
+categories: [study,blog]
 ---
 
 欢迎来到「小念头 Tech」
