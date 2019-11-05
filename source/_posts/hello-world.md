@@ -8,6 +8,7 @@ categories: [study,blog]
 
 欢迎来到「小念头 Tech」
 第一篇文章就记录下如何搭建的本博客吧
+<!-- more -->
 # GitHub + Netlify + Hexo 自动化部署网站
 
 ## Hexo 搭建本地 blog

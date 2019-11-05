@@ -1,13 +1,18 @@
 ---
 title: Hexo Next theme opt
+tags:
+  - Hexo
+  - Next Theme
+categories:
+  - study
+  - blog
+abbrlink: 93dd9bf0
 date: 2019-10-29 12:11:47
-tags: [Hexo,Next Theme]
-categories: [study,blog]
 ---
 
-
+本篇文章记录在 Next 主题上做的一些细节修改
  
-
+<!-- more -->
 # 添加点击小红心效果
 
 在`/themes/next/source/js/src`下新建文件` clicklove.js` ，接着把下面的代码拷贝粘贴到 `clicklove.js` 文件中：

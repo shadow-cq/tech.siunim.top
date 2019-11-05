@@ -144,7 +144,7 @@ Hack to learn!
 │ 
 └── 学海无涯(study)
     ├── 建站笔记(blog) 
-    └── 信息技术(computer) 
+    └── 程序相关(code) 
 ```
 <!-- │   ├── 悦读笔记(reading)
 │   ├── 校园生活(school)
