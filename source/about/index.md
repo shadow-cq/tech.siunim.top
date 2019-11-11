@@ -8,8 +8,7 @@ layout: "about"
 
 {% cq %}
 
-Don't learn to hack,
-Hack to learn!
+ 念頭正，終身正
 
 {% endcq %}
 
