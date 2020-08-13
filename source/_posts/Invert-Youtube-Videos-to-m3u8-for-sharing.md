@@ -1,7 +1,8 @@
 ---
 title: Invert Youtube Videos to m3u8 for sharing
-date: 2019-12-07 12:41:39
 tags: tech
+abbrlink: 26252e3d
+date: 2019-12-07 12:41:39
 ---
 
 # Invert Youtube Video to HLS(m3u8) on macOS
