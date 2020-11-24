@@ -1,5 +1,6 @@
 ---
 title: FCPX plugins
+abbrlink: 132085ee
 date: 2020-09-05 09:05:04
 tags:
 ---
