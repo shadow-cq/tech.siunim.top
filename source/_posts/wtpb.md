@@ -12,6 +12,8 @@ tags:
 {% asset_img 4.png This is an example image %}
 {% asset_img 5.png This is an example image %}
 {% asset_img 6.png This is an example image %}
+{% asset_img 7.png This is an example image %}
+
 
 
 [http://www.99166.com/suanming/bzsm/result.asp](http://www.99166.com/suanming/bzsm/result.asp)
